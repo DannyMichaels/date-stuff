@@ -17,7 +17,7 @@
 
 
 
-export const compareDateWithCurrentTime2 = (date) => {
+const compareDateWithCurrentTime2 = (date) => {
   let currentTime = new Date();
   let selectedTime = new Date(date);
 
